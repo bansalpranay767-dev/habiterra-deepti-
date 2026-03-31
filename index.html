@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Habiterra </title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f4f6f8;
+      text-align: center;
+    }
+
+    /* HEADER */
+    .header {
+      background: url('bg.png') center/cover no-repeat;
+      padding: 40px 20px 60px;
+      color: #333;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+
+    .logo-container {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo {
+      width: 100%;
+      max-width: 280px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      object-position: center;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    /* ICON BUTTONS */
+    .icon-row {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: -25px;
+    }
+
+    .icon-btn {
+      width: 50px;
+      height: 50px;
+      background: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      text-decoration: none;
+      font-size: 20px;
+      color: #f0d27f;
+    }
+
+    /* ADD CONTACT */
+    .add-contact {
+      margin: 25px auto;
+      background: #f0d27f;
+      color: #282828;
+      width: 85%;
+      max-width: 420px;
+      padding: 14px;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      display: block;
+    }
+
+    /* CARD */
+    .card {
+      background: white;
+      width: 85%;
+      max-width: 420px;
+      margin: 0 auto;
+      border-radius: 12px;
+      padding: 15px;
+      text-align: left;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 14px;
+    }
+
+    .item:last-child {
+      border-bottom: none;
+    }
+
+    .icon {
+      width: 32px;
+      text-align: center;
+      font-size: 18px;
+      margin-right: 10px;
+      color: #f0d27f;
+    }
+
+    /* SOCIAL */
+    .social {
+      width: 85%;
+      max-width: 420px;
+      margin: 25px auto;
+      text-align: left;
+    }
+
+    .social a {
+      background: white;
+      padding: 15px;
+      border-radius: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-decoration: none;
+      color: black;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+  </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="logo-container">
+        <div class="logo">
+          <img src="WhatsApp_Image_2026-02-10_at_17.54.38-removebg-preview.png" alt="Habiterra">
+        </div>
+      </div>
+      <h1> </h1>
+    </div>
+
+  <!-- ICONS -->
+    <div class="icon-row">
+      <a class="icon-btn" href="tel:+919501014114">📞</a>
+      
+      <a class="icon-btn" href="mailto:habiterra.pta@gmail.com">✉️</a>
+    </div>
+
+  <!-- ADD CONTACT -->
+  <a class="add-contact" href="deeptti.vcf" download>
+    👤 Add Contact 
+  </a>
+
+  <!-- DETAILS -->
+  <div class="card">
+    <div class="item">
+      <div class="icon">📞</div>
+      <div>Deeptti<br><b>+919501014114</b></div>
+    </div>
+    
+    <div class="item">
+      <div class="icon">✉️</div>
+      <div>habiterra.pta@gmail.com</div>
+    </div>
+  
+
+    <div class="item">
+      <div class="icon">🏢</div>
+      <div>Habiterra </div>
+    </div>
+  </div>
+
+  <!-- MAPS AND WEBSITE -->
+  <div class="social">
+    <a href="https://maps.app.goo.gl/QPCoV5dWsmbYEqqb9?g_st=ic" target="_blank">
+      <span>📍 Find us here</span>
+      <span>›</span>
+    </a>
+   
+  </div>
+
+  <!-- SOCIAL -->
+  <div class="social">
+    
+    <a href="https://www.instagram.com/habiterra_official/" target="_blank" style="margin-top: 15px;">
+      <span>📷 Instagram</span>
+      <span>›</span>
+    </a>
+    
+  </div>
+
+</body>
+</html>
